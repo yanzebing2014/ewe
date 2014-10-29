@@ -1,5 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Category extends CI_Controller {
+	function __construct(){
+		parent::__construct();
+	}
 	// 读取栏目列表
 	public function index()
 	{

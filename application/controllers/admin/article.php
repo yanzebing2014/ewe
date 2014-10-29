@@ -1,5 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 class Article extends CI_Controller {
+	function __construct(){
+		parent::__construct();
+	}
 	// 读取文章列表
 	public function lists($id='')
 	{
