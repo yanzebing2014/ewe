@@ -56,7 +56,13 @@
 							</a>
 							<ul class="submenu">
 								<li>
-									<a href="tables.html">
+									<a href="<?php echo base_url();?>index.php/admin/category/add">
+										<i class="icon-double-angle-right"></i>
+										新增栏目
+									</a>
+								</li>
+								<li>
+									<a href="<?php echo base_url();?>index.php/admin/category/index">
 										<i class="icon-double-angle-right"></i>
 										管理栏目
 									</a>
@@ -67,19 +73,17 @@
 							<a href="#" class="dropdown-toggle">
 								<i class="icon-edit fa fa-user"></i>
 								<span class="menu-text"> 管理员 </span>
-
 								<b class="arrow icon-angle-down fa fa-angle-down"></b>
 							</a>
-
 							<ul class="submenu">
 								<li>
-									<a href="form-elements.html">
+									<a href="<?php echo base_url();?>index.php/admin/user/index">
 										<i class="icon-double-angle-right"></i>
 										管理
 									</a>
 								</li>
 								<li>
-									<a href="form-wizard.html">
+									<a href="<?php echo base_url();?>index.php/admin/user/role">
 										<i class="icon-double-angle-right"></i>
 										角色管理
 									</a>
@@ -94,7 +98,7 @@
 							</a>
 							<ul class="submenu">
 								<li>
-									<a href="profile.html">
+									<a href="<?php echo base_url();?>index.php/admin/set/links">
 										<i class="icon-double-angle-right"></i>
 										友情链接
 									</a>

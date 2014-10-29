@@ -39,14 +39,14 @@
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
 															<input type="text" class="form-control" placeholder="Username" />
-															<i class="icon-user"></i>
+															<i class="icon-user fa fa-user"></i>
 														</span>
 													</label>
 
 													<label class="block clearfix">
 														<span class="block input-icon input-icon-right">
 															<input type="password" class="form-control" placeholder="Password" />
-															<i class="icon-lock"></i>
+															<i class="icon-lock fa fa-lock"></i>
 														</span>
 													</label>
 
@@ -59,7 +59,7 @@
 														</label>
 
 														<button type="button" class="width-35 pull-right btn btn-sm btn-primary">
-															<i class="icon-key"></i>
+															<i class="icon-key fa fa-key"></i>
 															Login
 														</button>
 													</div>
